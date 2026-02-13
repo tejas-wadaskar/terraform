@@ -1,5 +1,5 @@
 module "ec2" {
-    source = "/home/ubuntu/terraform/main/Ec2"
+    source = "/home/ubuntu/terraform/main/ec2"
     tejas_ami = "ami-0b6c6ebed2801a5cb"
     tejas_instance_type = "t3.micro"   
     tejas_key_name = "ubuntu2"
