@@ -9,9 +9,9 @@ output "subnet_id" {
 # Inside modules/vpc/outputs.tf
 
 output "t_sg" {
-  value = aws_security_group.your_sg_resource_name.id
+  value = aws_security_group.t_sg.id
 }
 
 output "webserversg_Arn" {
-    value = aws_security_group.webserversg.arn
+    value = aws_security_group.t_sg.arn
 }
