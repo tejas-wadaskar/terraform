@@ -4,7 +4,7 @@ module "ec2" {
     tejas_instance_type = "t3.micro"   
     tejas_key_name = "ubuntu2"
     tejas_subnetA = module.vpc.subnet_id 
-    tejas_security_group = module.vpc.t_sg 
+    tejas_vpc_security_group = module.vpc.t_sg 
     tejas_disable_api_termination = false
 
 
